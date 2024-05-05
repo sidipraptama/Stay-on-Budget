@@ -29,7 +29,6 @@
 		929F2D2E2BE4F52100411425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F2D2D2BE4F52100411425 /* AppDelegate.swift */; };
 		929F2D302BE5E6B400411425 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F2D2F2BE5E6B400411425 /* NetworkCheck.swift */; };
 		92A00C3D2BE4BFA400868FF2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A00C3C2BE4BFA400868FF2 /* SplashView.swift */; };
-		92FBA74F2BDE625100C82428 /* Coba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBA74E2BDE625100C82428 /* Coba.swift */; };
 		92FBA7512BDE77BC00C82428 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBA7502BDE77BC00C82428 /* ModalView.swift */; };
 		92FBA7532BDFE02400C82428 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBA7522BDFE02400C82428 /* ResultView.swift */; };
 		92FBA7552BE0C9D700C82428 /* HighScoresModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBA7542BE0C9D700C82428 /* HighScoresModel.swift */; };
@@ -80,7 +79,6 @@
 		929F2D2D2BE4F52100411425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929F2D2F2BE5E6B400411425 /* NetworkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
 		92A00C3C2BE4BFA400868FF2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		92FBA74E2BDE625100C82428 /* Coba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coba.swift; sourceTree = "<group>"; };
 		92FBA7502BDE77BC00C82428 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		92FBA7522BDFE02400C82428 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		92FBA7542BE0C9D700C82428 /* HighScoresModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresModel.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 				928C8C022BDB93B30088A578 /* ContentView.swift */,
 				928C8C042BDB93B70088A578 /* Assets.xcassets */,
 				928C8C062BDB93B70088A578 /* Preview Content */,
-				92FBA74E2BDE625100C82428 /* Coba.swift */,
 			);
 			path = "Stay on Budget";
 			sourceTree = "<group>";
@@ -361,7 +358,6 @@
 				92FBA7552BE0C9D700C82428 /* HighScoresModel.swift in Sources */,
 				928C8C2F2BDBAAA30088A578 /* Buttons.swift in Sources */,
 				92189F0A2BE0ECD90039AFAA /* ModalData.swift in Sources */,
-				92FBA74F2BDE625100C82428 /* Coba.swift in Sources */,
 				928C8C352BDBB6A90088A578 /* ScoresView.swift in Sources */,
 				928C8C032BDB93B30088A578 /* ContentView.swift in Sources */,
 				92FBA7572BE0D1B800C82428 /* GameLogic.swift in Sources */,
