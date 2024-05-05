@@ -124,7 +124,9 @@ struct InGameView: View {
                         
                         Button(action: {
                             game.playClick()
-                            currentIndex = (currentIndex + 2).clamped(to: 0..<100)
+                            if currentIndex < 100 {
+                                currentIndex = (currentIndex + 2)
+                            }
                             print(currentIndex)
                         }) {
                             ZStack{
