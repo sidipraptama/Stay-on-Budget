@@ -85,13 +85,15 @@ struct ResultView: View {
                             .foregroundColor(.black)
                             .bold()
                             .animation(.bouncy(extraBounce: 10))
-                            .onAppear{
-                                context.insert(HighScoreModel(Date: Date.now, Score: game.getExpense()))
-                            }
                     }
                 }
                 .frame(width: 1000, height: 50)
                 .border(width: 2, edges: [.leading, .trailing, .bottom], color: .black)
+                .onAppear{
+                    if game.budget >= game.getExpense() {
+                        context.insert(HighScoreModel(Date: Date.now, Score: game.getExpense()))
+                    }
+                }
                 
                 
                 HStack {
